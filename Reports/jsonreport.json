@@ -1,0 +1,551 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "The user gives the invalid username and password",
+        "description": "",
+        "id": "as-a-user-i-want-to-order-the-food;the-user-gives-the-invalid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1550212500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14201171600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the browser",
+            "match": {
+              "location": "ScenarioOne.to_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54963727800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user hit the testing site",
+            "match": {
+              "location": "ScenarioOne.the_user_hit_the_testing_site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14275844700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click the account button",
+            "match": {
+              "location": "ScenarioOne.user_click_the_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3303018400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User pass the wrong username",
+            "match": {
+              "location": "ScenarioOne.user_pass_the_wrong_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283334100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User pass the wrong password",
+            "match": {
+              "location": "ScenarioOne.user_pass_the_wrong_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3709965800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click the login button",
+            "match": {
+              "location": "ScenarioOne.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220869400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User checking result",
+            "match": {
+              "location": "ScenarioOne.user_checking_result()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@case1"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "The user successfully add the dosa",
+        "description": "",
+        "id": "as-a-user-i-want-to-order-the-food;the-user-successfully-add-the-dosa",
+        "after": [
+          {
+            "result": {
+              "duration": 1196441100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4760448900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To launch the web browser",
+            "match": {
+              "location": "ScenarioTwo.toLaunchTheWebBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31731515300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "To hit the website",
+            "match": {
+              "location": "ScenarioTwo.toHitTheWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12570583700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User hit the dosa icon",
+            "match": {
+              "location": "ScenarioTwo.userHitTheDosaIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9031061400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User then click the Masal dosa",
+            "match": {
+              "location": "ScenarioTwo.userThenClickTheMasalDosa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3177820200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User checking the available time",
+            "match": {
+              "location": "ScenarioTwo.userCheckingTheAvailableTime()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@case2"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "The user fills out the registration form and ignores the confirm password",
+        "description": "",
+        "id": "as-a-user-i-want-to-order-the-food;the-user-fills-out-the-registration-form-and-ignores-the-confirm-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1441912100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6661240400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "launching the web browser",
+            "match": {
+              "location": "ScenarioThree.launchingTheWebBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37819111900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "To hit the testing website",
+            "match": {
+              "location": "ScenarioThree.toHitTheTestingWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10317170800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click the account button",
+            "match": {
+              "location": "ScenarioThree.iClickTheAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3267775100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User pass the Name",
+            "match": {
+              "location": "ScenarioThree.userPassTheName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 285020100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User pass the Mail",
+            "match": {
+              "location": "ScenarioThree.userPassTheMail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279329300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User pass the Phnno",
+            "match": {
+              "location": "ScenarioThree.userPassThePhnno()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297255800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User pass the Password",
+            "match": {
+              "location": "ScenarioThree.userPassThePassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 374650600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User click the register button",
+            "match": {
+              "location": "ScenarioThree.userClickTheRegisterButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 491410100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Get the Pop Up",
+            "match": {
+              "location": "ScenarioThree.userGetThePopUp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@case3"
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "The user search for the “Coke” can and check the price",
+        "description": "",
+        "id": "as-a-user-i-want-to-order-the-food;the-user-search-for-the-“coke”-can-and-check-the-price",
+        "after": [
+          {
+            "result": {
+              "duration": 2296575400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4253448300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User launching the web browser",
+            "match": {
+              "location": "ScenarioFour.userLaunchingTheWebBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32811342100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User enters the testing website",
+            "match": {
+              "location": "ScenarioFour.userEntersTheTestingWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3220095000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click the search icon",
+            "match": {
+              "location": "ScenarioFour.clickTheSearchIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8432331500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Search the Coke",
+            "match": {
+              "location": "ScenarioFour.searchTheCoke()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9476098800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "check the price",
+            "match": {
+              "location": "ScenarioFour.checkThePrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@case4"
+          }
+        ]
+      },
+      {
+        "line": 44,
+        "name": "The user selects the Spanish Omelet",
+        "description": "",
+        "id": "as-a-user-i-want-to-order-the-food;the-user-selects-the-spanish-omelet",
+        "after": [
+          {
+            "result": {
+              "duration": 1648422900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.postcondition1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4806625100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User launching the Chrome web browser",
+            "match": {
+              "location": "ScenarioFive.userLaunchingTheChromeWebBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34538979300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User hits the testing website",
+            "match": {
+              "location": "ScenarioFive.userHitsTheTestingWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3197867100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click the search icon",
+            "match": {
+              "location": "ScenarioFour.clickTheSearchIcon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 464136600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Search the Spanish Omelte",
+            "match": {
+              "location": "ScenarioFive.searchTheSpanishOmelte()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11890656600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click the Spanish Omelte",
+            "match": {
+              "location": "ScenarioFive.clickTheSpanishOmelte()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3087921200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Check the price before probability",
+            "match": {
+              "location": "ScenarioFive.checkThePriceBeforeProbability()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144346800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Select and get the toppings option by probability",
+            "match": {
+              "location": "ScenarioFive.selectAndGetTheToppingsOptionByProbability()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3051433400,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Check the price after probability",
+            "match": {
+              "location": "ScenarioFive.checkThePriceAfterProbability()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@case5"
+          }
+        ]
+      }
+    ],
+    "name": "As a user i want to order the food",
+    "description": "",
+    "id": "as-a-user-i-want-to-order-the-food",
+    "keyword": "Feature",
+    "uri": "featurefiles/Project.feature",
+    "tags": []
+  }
+]

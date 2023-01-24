@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="340.758107">
+    <testcase classname="As a user i want to order the food" name="The user gives the invalid username and password" time="92.700678">
+        <system-out><![CDATA[Given To launch the browser.................................................passed
+When The user hit the testing site..........................................passed
+And User click the account button...........................................passed
+And User pass the wrong username............................................passed
+And User pass the wrong password............................................passed
+And User click the login button.............................................passed
+And User checking result....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to order the food" name="The user successfully add the dosa" time="62.474078">
+        <system-out><![CDATA[Given To launch the web browser.............................................passed
+When To hit the website.....................................................passed
+And User hit the dosa icon..................................................passed
+And User then click the Masal dosa..........................................passed
+And User checking the available time........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to order the food" name="The user fills out the registration form and ignores the confirm password" time="61.242018">
+        <system-out><![CDATA[Given launching the web browser.............................................passed
+When To hit the testing website.............................................passed
+And I click the account button..............................................passed
+And User pass the Name......................................................passed
+And User pass the Mail......................................................passed
+And User pass the Phnno.....................................................passed
+And User pass the Password..................................................passed
+And User click the register button..........................................passed
+Then User Get the Pop Up....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to order the food" name="The user search for the “Coke” can and check the price" time="60.496086">
+        <system-out><![CDATA[Given User launching the web browser........................................passed
+When User enters the testing website........................................passed
+And Click the search icon...................................................passed
+And Search the Coke.........................................................passed
+Then check the price........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="As a user i want to order the food" name="The user selects the Spanish Omelet" time="63.845247">
+        <system-out><![CDATA[Given User launching the Chrome web browser.................................passed
+When User hits the testing website..........................................passed
+And Click the search icon...................................................passed
+And Search the Spanish Omelte...............................................passed
+And Click the Spanish Omelte................................................passed
+And Check the price before probability......................................passed
+And Select and get the toppings option by probability.......................passed
+Then Check the price after probability......................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
